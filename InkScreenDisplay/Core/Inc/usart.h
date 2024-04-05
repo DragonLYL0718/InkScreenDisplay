@@ -29,13 +29,16 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "stdio.h"
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN Private defines */
-
+#define USART1_RX_BUF_SIZE 512
+extern volatile uint8_t USART1_RX_LEN;              // 接收�?帧数据的长度
+extern volatile uint8_t USART1_RECV_CPLT_FLAG;      // �?帧数据接收完成标�?
+extern uint8_t USART1_RX_BUF[USART1_RX_BUF_SIZE];   // 接收数据缓冲�?
 /* USER CODE END Private defines */
 
 void MX_USART1_UART_Init(void);

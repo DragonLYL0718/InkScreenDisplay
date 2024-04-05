@@ -1,10 +1,10 @@
 Dependencies for Project 'InkScreenDisplay', Target 'InkScreenDisplay': (DO NOT MODIFY !)
 CompilerVersion: 6190000::V6.19::ARMCLANG
-F (startup_stm32wle5xx.s)(0x660236EE)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32WLE5xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o inkscreendisplay/startup_stm32wle5xx.o)
-F (../Core/Src/main.c)(0x660236EC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/main.o -MD)
+F (startup_stm32wle5xx.s)(0x660B9152)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32WLE5xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o inkscreendisplay/startup_stm32wle5xx.o)
+F (../Core/Src/main.c)(0x660B9123)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/main.o -MD)
 I (..\Core\Inc\main.h)(0x660236EC)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -37,19 +37,19 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-I (..\Core\Inc\spi.h)(0x660236EB)
-I (..\Core\Inc\usart.h)(0x660236EB)
+I (..\Core\Inc\dma.h)(0x660B8050)
+I (..\Core\Inc\usart.h)(0x660B8417)
+I (C:\Study\Keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
 I (..\Core\Inc\gpio.h)(0x660236EB)
-F (../Core/Src/gpio.c)(0x660236EB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/gpio.o -MD)
+I (C:\Study\Keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+F (../Core/Src/gpio.c)(0x660B9150)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/gpio.o -MD)
 I (..\Core\Inc\gpio.h)(0x660236EB)
 I (..\Core\Inc\main.h)(0x660236EC)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -82,16 +82,14 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Core/Src/spi.c)(0x660236EB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/spi.o -MD)
-I (..\Core\Inc\spi.h)(0x660236EB)
+F (../Core/Src/dma.c)(0x660B8050)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/dma.o -MD)
+I (..\Core\Inc\dma.h)(0x660B8050)
 I (..\Core\Inc\main.h)(0x660236EC)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -124,16 +122,14 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Core/Src/usart.c)(0x660236EB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/usart.o -MD)
-I (..\Core\Inc\usart.h)(0x660236EB)
+F (../Core/Src/usart.c)(0x660B8417)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/usart.o -MD)
+I (..\Core\Inc\usart.h)(0x660B8417)
 I (..\Core\Inc\main.h)(0x660236EC)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -166,15 +162,14 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Core/Src/stm32wlxx_it.c)(0x660236EB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_it.o -MD)
+I (C:\Study\Keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+F (../Core/Src/stm32wlxx_it.c)(0x660B8417)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_it.o -MD)
 I (..\Core\Inc\main.h)(0x660236EC)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -207,16 +202,16 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_it.h)(0x660236EB)
-F (../Core/Src/stm32wlxx_hal_msp.c)(0x660236EC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_msp.o -MD)
+I (..\Core\Inc\stm32wlxx_it.h)(0x660B8050)
+I (..\Core\Inc\usart.h)(0x660B8417)
+I (C:\Study\Keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+F (../Core/Src/stm32wlxx_hal_msp.c)(0x660236EC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_msp.o -MD)
 I (..\Core\Inc\main.h)(0x660236EC)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -249,14 +244,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_rcc.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_rcc.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -289,14 +282,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_rcc_ex.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_rcc_ex.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -329,14 +320,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_flash.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_flash.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -369,14 +358,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_flash_ex.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_flash_ex.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -409,14 +396,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_gpio.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_gpio.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -449,14 +434,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_dma.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_dma.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -489,14 +472,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_dma_ex.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_dma_ex.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -529,14 +510,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_pwr.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_pwr.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -569,14 +548,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_pwr_ex.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_pwr_ex.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -609,14 +586,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_cortex.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_cortex.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -649,14 +624,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -689,14 +662,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_exti.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_exti.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -729,14 +700,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_spi.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_tim.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -769,14 +738,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_spi_ex.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_tim_ex.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -809,14 +776,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_tim.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_uart.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -849,14 +814,12 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_tim_ex.o -MD)
+F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_uart_ex.o -MD)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
@@ -889,92 +852,10 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_uart.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x660236E1)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x660236E3)
-I (C:\Study\Keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x660236E3)
-I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x660236E3)
-I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x660236E3)
-I (C:\Study\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (C:\Study\Keil\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x660236E3)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x660236E1)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x660236E3)
-I (C:\Study\Keil\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c)(0x660236E3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/stm32wlxx_hal_uart_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x660236E1)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x660236E3)
-I (C:\Study\Keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x660236E3)
-I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x660236E3)
-I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x660236E3)
-I (C:\Study\Keil\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (C:\Study\Keil\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x660236E3)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x660236E1)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x660236E3)
-I (C:\Study\Keil\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)
-F (../Core/Src/system_stm32wlxx.c)(0x660236E1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/system_stm32wlxx.o -MD)
+F (../Core/Src/system_stm32wlxx.c)(0x660236E1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include-I./RTE/_InkScreenDisplay-IC:/Users/52853/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/52853/AppData/Local/Arm/Packs/Keil/STM32WLxx_DFP/1.1.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o inkscreendisplay/system_stm32wlxx.o -MD)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x660236E1)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x660236E1)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x660236E3)
@@ -987,7 +868,7 @@ I (C:\Study\Keil\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
 I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x660236E3)
 I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x660236E1)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x660236E3)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660236EC)
+I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x660B8418)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x660236E3)
@@ -1009,8 +890,6 @@ I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi.h)(0x660236E3)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_spi_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x660236E3)
 I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x660236E3)

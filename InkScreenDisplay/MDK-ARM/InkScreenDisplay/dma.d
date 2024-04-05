@@ -1,6 +1,5 @@
-inkscreendisplay/stm32wlxx_hal_uart_ex.o: \
-  ..\Drivers\STM32WLxx_HAL_Driver\Src\stm32wlxx_hal_uart_ex.c \
-  ..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h \
+inkscreendisplay/dma.o: ..\Core\Src\dma.c ..\Core\Inc\dma.h \
+  ..\Core\Inc\main.h ..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h \
   ..\Core\Inc\stm32wlxx_hal_conf.h \
   ..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h \
   ..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h \
