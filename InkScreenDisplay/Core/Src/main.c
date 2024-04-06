@@ -51,24 +51,14 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-#ifdef __GNUC__
-/* With GCC, small printf (option LD Linker->Libraries->Small printf
-   set to 'Yes') calls __io_putchar() */
-#define PUTCHAR_PROTOTYPE int __io_putchar( int ch )
-#else
-#define PUTCHAR_PROTOTYPE int fputc( int ch, FILE* f )
-#endif /* __GNUC__ */
+int fputc( int ch, FILE* f ) {
+    HAL_UART_Transmit( &huart1, ( uint8_t* )&ch, 1, 0xffff );
+    return ch;
+}
 
-/**
- * @brief  Retargets the C library printf function to the USART.
- * @param  None
- * @retval None
- */
-PUTCHAR_PROTOTYPE {
-    /* Place your implementation of fputc here */
-    /* e.g. write a character to the USART3 and Loop until the end of transmission */
-    HAL_UART_Transmit( &huart1, ( uint8_t* )&ch, 1, 0xFFFF );
-
+int fgetc( FILE* f ) {
+    uint8_t ch = 0;
+    HAL_UART_Receive( &huart1, &ch, 1, 0xffff );
     return ch;
 }
 /* USER CODE END PFP */
@@ -115,9 +105,8 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while ( 1 ) {
-        // printf("hello world\r\n");
-				HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_3);
-        HAL_Delay( 1000 );
+        printf("hello world\r\n");
+			HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

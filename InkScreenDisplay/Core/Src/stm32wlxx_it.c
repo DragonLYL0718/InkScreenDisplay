@@ -239,20 +239,21 @@ void USART1_IRQHandler(void)
   /* USER CODE END USART1_IRQn 0 */
   HAL_UART_IRQHandler(&huart1);
   /* USER CODE BEGIN USART1_IRQn 1 */
-    if ( USART1 == huart1.Instance ) {
-        tmp_flag = __HAL_UART_GET_FLAG( &huart1, UART_FLAG_IDLE );  // 获取IDLE标志�?
+    if (USART1 == huart1.Instance)
+	{
+		tmp_flag = __HAL_UART_GET_FLAG(&huart1, UART_FLAG_IDLE); // Get the idle flag
 
-        if ( ( tmp_flag != RESET ) )  // idle标志被置�?
-        {
-            __HAL_UART_CLEAR_IDLEFLAG( &huart1 );  // 清除标志�?
-            HAL_UART_DMAStop( &huart1 );
-            temp          = __HAL_DMA_GET_COUNTER( &hdma_usart1_rx );  // 获取DMA中未传输的数据个�?
-            USART1_RX_LEN = USART1_RX_BUF_SIZE - temp;                 // 总计数减去未传输的数据个数，得到已经接收的数据个�?
+		if ((tmp_flag != RESET)) // idle flag is set
+		{
+			__HAL_UART_CLEAR_IDLEFLAG(&huart1); // clear idle flag
+			HAL_UART_DMAStop(&huart1);
+			temp = __HAL_DMA_GET_COUNTER(&hdma_usart1_rx); // get the dma receive counter
+			USART1_RX_LEN = USART1_RX_BUF_SIZE - temp;	   // get receive data length
 
-            USART1_RECV_CPLT_FLAG = USART1_RX_LEN ? 1 : 0;                       // 如果接收到数据，设置完成标志
-            HAL_UART_Receive_DMA( &huart1, USART1_RX_BUF, USART1_RX_BUF_SIZE );  // 重新打开DMA接收
-        }
-    }
+			USART1_RECV_CPLT_FLAG = USART1_RX_LEN ? 1 : 0;					  // set receive complete flag
+			HAL_UART_Receive_DMA(&huart1, USART1_RX_BUF, USART1_RX_BUF_SIZE); // restart dma receive
+		}
+	}
   /* USER CODE END USART1_IRQn 1 */
 }
 

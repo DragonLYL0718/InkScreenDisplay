@@ -21,9 +21,9 @@
 #include "usart.h"
 
 /* USER CODE BEGIN 0 */
-volatile uint8_t USART1_RX_LEN                       = 0;      // 接收�?帧数据的长度
-volatile uint8_t USART1_RECV_CPLT_FLAG               = 0;      // �?帧数据接收完成标�?
-uint8_t          USART1_RX_BUF[ USART1_RX_BUF_SIZE ] = { 0 };  // 接收数据缓冲�?
+volatile uint8_t USART1_RX_LEN = 0;				 // the length of the received data
+volatile uint8_t USART1_RECV_CPLT_FLAG = 0;		 // the flag of the completion of receiving data
+uint8_t USART1_RX_BUF[USART1_RX_BUF_SIZE] = {0}; // the buffer of the received data
 /* USER CODE END 0 */
 
 UART_HandleTypeDef huart1;
@@ -70,7 +70,6 @@ void MX_USART1_UART_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN USART1_Init 2 */
-    /* 使能空闲中断 */
     __HAL_UART_ENABLE_IT( &huart1, UART_IT_IDLE );
     HAL_UART_Receive_DMA( &huart1, USART1_RX_BUF, USART1_RX_BUF_SIZE );
   /* USER CODE END USART1_Init 2 */
@@ -91,7 +90,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
   /** Initializes the peripherals clocks
   */
     PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_USART1;
-    PeriphClkInitStruct.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK2;
+    PeriphClkInitStruct.Usart1ClockSelection = RCC_USART1CLKSOURCE_SYSCLK;
     if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
     {
       Error_Handler();
